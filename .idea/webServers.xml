@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="5654b52d-0c76-4366-8137-08225da319f5" name="groentec.ru" url="https://groentec.ru">
-        <fileTransfer host="172.29.0.22" port="21">
+      <webServer id="5654b52d-0c76-4366-8137-08225da319f5" name="groentec.ru" url="172.29.0.22">
+        <fileTransfer accessType="SFTP" host="172.29.0.22" port="22" sshConfigId="e2edd92e-925b-4051-a787-950188887bd8" sshConfig="bitrix@172.29.0.22:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
           </advancedOptions>
